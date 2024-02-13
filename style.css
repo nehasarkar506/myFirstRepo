@@ -35,6 +35,8 @@ body {
 
 .box1 {
     border: 2px solid rgb(83, 8, 21);
+    /* width: 150px; */
+    /* height: 80px; */
 }
 
 .box1:nth-child(2)
