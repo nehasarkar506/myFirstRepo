@@ -26,14 +26,25 @@ body {
 
 }
 
-/* .box:nth-child(2)
+.container1 {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template:  repeat(2, 1fr) / repeat(2, 2fr); 
+}
+
+.box1 {
+    border: 2px solid rgb(83, 8, 21);
+}
+
+.box1:nth-child(2)
 {
     grid-column-end:1;
     grid-column-start: 2;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
     grid-row-end: 1                                 ;
     grid-row-start: 4                                                                      ;
 
-} */
+}
 
 .grid-container
 {
